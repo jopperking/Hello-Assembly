@@ -42,3 +42,4 @@ Title 'Hello Assembly'
         
         ; print end message (output string at ds:dx): 
         mov ah, 9
+        int 21h

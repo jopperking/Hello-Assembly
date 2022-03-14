@@ -20,3 +20,4 @@ Title 'Hello Assembly'
         lea dx,MessageHello ; load address of the output hello string message in to data register
         
         ; print hello message (output string at ds:dx) :
+        mov AH,09

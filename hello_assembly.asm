@@ -13,3 +13,4 @@ Title 'Hello Assembly'
     
 .Code
     Main proc
+        ; set segment registers:

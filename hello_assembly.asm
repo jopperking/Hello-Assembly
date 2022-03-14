@@ -47,3 +47,5 @@ Title 'Hello Assembly'
         ; wait for any key.... 
         mov ah, 1
         int 21h
+        
+        ; exit to operating system.

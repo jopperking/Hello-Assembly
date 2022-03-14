@@ -24,3 +24,4 @@ Title 'Hello Assembly'
         int 21H
         
         ; printing new line
+        mov dl, 10

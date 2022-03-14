@@ -44,4 +44,5 @@ Title 'Hello Assembly'
         mov ah, 9
         int 21h
         
-        ; wait for any key....
+        ; wait for any key.... 
+        mov ah, 1

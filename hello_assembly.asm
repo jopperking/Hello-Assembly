@@ -12,3 +12,4 @@ Title 'Hello Assembly'
     pkey db "press any key...$"
     
 .Code
+    Main proc

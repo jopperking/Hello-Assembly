@@ -15,3 +15,4 @@ Title 'Hello Assembly'
     Main proc
         ; set segment registers:
         mov Ax,@data
+        mov DS,AX ;move AX address to segment register(DS)

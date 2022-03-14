@@ -32,3 +32,8 @@ Title 'Hello Assembly'
         mov dl, 13
         mov ah, 02h
         int 21h
+
+        ; printing new line
+        mov dl, 10
+        mov ah, 02h
+        int 21h

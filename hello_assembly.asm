@@ -52,4 +52,6 @@ Title 'Hello Assembly'
         mov AX,4C00H              
         int 21H
         
-    Main endp
+    Main endp 
+    
+end Main

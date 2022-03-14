@@ -8,3 +8,4 @@ Title 'Hello Assembly'
 
 .data
     ; add data
+    MessageHello DB 'Hello Assembly','$'

@@ -7,3 +7,4 @@ Title 'Hello Assembly'
 .Stack 32
 
 .data
+    ; add data

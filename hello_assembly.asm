@@ -18,3 +18,5 @@ Title 'Hello Assembly'
         mov DS,AX ;move AX address to segment register(DS)
         
         lea dx,MessageHello ; load address of the output hello string message in to data register
+        
+        ; print hello message (output string at ds:dx) :

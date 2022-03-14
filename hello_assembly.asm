@@ -37,3 +37,5 @@ Title 'Hello Assembly'
         mov dl, 10
         mov ah, 02h
         int 21h
+        
+        lea dx, pkey ; load address of the output end string message in to data register   

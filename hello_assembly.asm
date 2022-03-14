@@ -10,3 +10,5 @@ Title 'Hello Assembly'
     ; add data
     MessageHello DB 'Hello Assembly','$'
     pkey db "press any key...$"
+    
+.Code

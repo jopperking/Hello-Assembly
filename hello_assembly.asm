@@ -39,3 +39,5 @@ Title 'Hello Assembly'
         int 21h
         
         lea dx, pkey ; load address of the output end string message in to data register   
+        
+        ; print end message (output string at ds:dx):

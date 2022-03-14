@@ -25,3 +25,4 @@ Title 'Hello Assembly'
         
         ; printing new line
         mov dl, 10
+        mov ah, 02h ;  call the interrupt with function code 2 in AH

@@ -27,3 +27,8 @@ Title 'Hello Assembly'
         mov dl, 10
         mov ah, 02h ;  call the interrupt with function code 2 in AH
         int 21h
+        
+        ;Carriage Return
+        mov dl, 13
+        mov ah, 02h
+        int 21h

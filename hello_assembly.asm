@@ -49,4 +49,5 @@ Title 'Hello Assembly'
         int 21h
         
         ; exit to operating system.
-        mov AX,4C00H
+        mov AX,4C00H              
+        int 21H

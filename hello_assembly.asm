@@ -22,3 +22,5 @@ Title 'Hello Assembly'
         ; print hello message (output string at ds:dx) :
         mov AH,09
         int 21H
+        
+        ; printing new line
